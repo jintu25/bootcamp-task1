@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootchamp first task | contact </title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./input.css" rel="stylesheet">
+</head>
+<body>
+    <header class="py-3">
+        <ul class="text-center flex justify-center gap-4">
+            <li class=" font-serif font-semibold">Home</li>
+            <li class=" font-serif font-semibold"><a href="/index.html">About Us</a></li>
+            <li class=" font-serif font-semibold"><a href="/contact.html">Contact</a></li>
+        </ul>
+    </header>
+    
+    <section class="max-w-screen-xl m-auto py-16">
+        <div class="text-center">
+            <h1 class="text-4xl md:text-6xl font-semibold">Contact Us</h1>
+            <p class="my-4 paragraph">Get in touch! Have a question or feedback? Use our contact <br> form or 
+                drop us an email. We're here to help!
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 my-8 mx-4 lg:mx-0 items-center h-full bg-black">
+            <div class=" w-full px-10 md:px-16 py-12">
+                <h3 class="text-white font-sans text-2xl font-semibold mb-6">Get in touch with us</h3>
+                <form action="#">
+                    <!-- Name input -->
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-gray-600">Name</label>
+                        <input type="name" id="name" name="name" placeholder="Name" class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+                    
+                    <!-- email Input -->
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-600">email</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" class="mt-1 p-2 w-full border rounded-md">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium text-gray-600">Message</label>
+                        <textarea class="w-full h-40" name="message" placeholder="message"></textarea>
+                    </div>
+
+                    <input class="bg-yellow-400 px-6 py-2 font-semibold" type="submit" value="Send my message">
+                    
+                </form>
+            </div>
+            <div>
+                <img src="./image/map.png" alt="">
+            </div>
+        </div>
+    </section>
+
+   
+</body>
+</html>
